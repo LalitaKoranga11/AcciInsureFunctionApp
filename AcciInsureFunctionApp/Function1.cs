@@ -10,6 +10,8 @@ using Microsoft.Azure.EventHubs;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using Newtonsoft.Json;
+using FunctionApp1;
 
 namespace AcciInsureFunctionApp
 {
