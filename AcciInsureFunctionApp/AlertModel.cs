@@ -2,10 +2,10 @@
 {
     public class AlertModel
     {
-        private string recipient { get; set; }
-        private string alertName { get; set; }
-        private string alertMessage { get; set; }
-        private string condition { get; set; }
+        public string recipient { get; set; }
+        public string alertName { get; set; }
+        public string alertMessage { get; set; }
+        public string condition { get; set; }
         public AlertModel(string recipientMail, string alertName1, string alertMessage1, string condition1)
         {
             recipient = recipientMail;
